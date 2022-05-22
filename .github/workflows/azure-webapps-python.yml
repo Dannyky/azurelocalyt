@@ -84,4 +84,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'localvm'
-          publish-profile: 'ftp://waws-prod-dm1-299.ftp.azurewebsites.windows.net/site/wwwroot'
+          publish-profile: 'http://localvm.azurewebsites.net'
