@@ -84,4 +84,4 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: 'localvm'
-          publish-profile: 'https://localvm.scm.azurewebsites.net/'
+          publish-profile: 'localvm.scm.azurewebsites.net:443'
