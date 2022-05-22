@@ -20,7 +20,7 @@
 name: Build and deploy Python app to Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: 'localvm - Web Deploy'  # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: 'localvm'  # set this to the name of your Azure Web App
   PYTHON_VERSION: '3.7'              # set this to the Python version to use
 
 on:
@@ -83,5 +83,5 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'localvm - Web Deploy'
+          app-name: 'localvm'
           publish-profile: 'ftp://waws-prod-dm1-299.ftp.azurewebsites.windows.net/site/wwwroot'
